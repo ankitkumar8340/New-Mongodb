@@ -83,9 +83,6 @@ db.users.find({salary:{$gte:120000, $lte:220000}})  //less than equal to $lt
 
 db.users.find({salary:{$gte:120000, $lte:220000}, department:{$eq:'IT'}})
 
-// to disconnect kre??
-//placement
-//users
 
 
 
