@@ -84,6 +84,11 @@ db.users.find({salary:{$gte:120000, $lte:220000}})  //less than equal to $lt
 db.users.find({salary:{$gte:120000, $lte:220000}, department:{$eq:'IT'}})
 
 
+db.users.find({$or:[{department:{$in:['CSE','IT']}, salary:{$gte:2000}}]})
+
+
+db.users.find({$and:[{department:{$eq:"IT"},salary:{$gte:20000}}]})
+
 
 
 
