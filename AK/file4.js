@@ -46,4 +46,3 @@ db.users.updateMany({}, {$set:{score:10}});
 
 db.users.updateMany({}, {$unset:{score:""}})  //delete the field
 
-
