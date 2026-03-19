@@ -119,4 +119,3 @@ db.users.find({$and:[{department:{$eq:"IT"},salary:{$gte:20000}}]})
 
 
 
-
