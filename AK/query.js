@@ -43,17 +43,34 @@ db.users.getIndexes()  // to check whether index is created or not
 
 
 
+db.users.find()
+
+db.users.find({email:'ank@gmail.com'})
 
 
+db.users.updateOne(
+    {email:'ank@gmail.com'},
+     {$set:{Location:['delhi', 'up', 'bihar']}}
+    )
 
+db.users.updateOne({email:'ank@gmail.com'}, {$unset:{Locations:" "}})
 
+db.users.updateOne({email:'ank@gmail.com'}, {$addToSet:{Location:["lehsun", "pyaj"]}})
 
+db.users.updateOne({email:'ank@gmail.com'}, {$pull:{Location:["lehsun", "pyaj"]}})
 
+db.users.updateMany({},
+    {$addToSet:{
+       Location: {$each:["lehsun", "pyaj"]}
+    }}
+)
 
-
-
-
-
+db.users.updateOne(
+    {email:"ank@gmail.com"},
+    {$push:{
+        Location:{$each:['aalo', 'sabji']}
+    }}
+)
 
 
 
