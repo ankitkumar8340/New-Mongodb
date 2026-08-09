@@ -19,18 +19,18 @@ db.users.insertMany([
     attendance: 92,
     isHosteller: true
   },
-//   {
-//     rollNo: 102,
-//     name: "Priya Verma",
-//     age: 19,
-//     gender: "Female",
-//     course: "B.Tech CSE",
-//     semester: 3,
-//     marks: 94,
-//     city: "Lucknow",
-//     attendance: 96,
-//     isHosteller: false
-//   },
+  {
+    rollNo: 102,
+    name: "Priya Verma",
+    age: 19,
+    gender: "Female",
+    course: "B.Tech CSE",
+    semester: 3,
+    marks: 94,
+    city: "Lucknow",
+    attendance: 96,
+    isHosteller: false
+  },
 //   {
 //     rollNo: 103,
 //     name: "Rohan Gupta",
