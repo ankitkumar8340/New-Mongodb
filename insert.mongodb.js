@@ -31,18 +31,18 @@ db.users.insertMany([
     attendance: 96,
     isHosteller: false
   },
-//   {
-//     rollNo: 103,
-//     name: "Rohan Gupta",
-//     age: 21,
-//     gender: "Male",
-//     course: "B.Tech IT",
-//     semester: 5,
-//     marks: 78,
-//     city: "Jaipur",
-//     attendance: 81,
-//     isHosteller: true
-//   },
+  {
+    rollNo: 103,
+    name: "Rohan Gupta",
+    age: 21,
+    gender: "Male",
+    course: "B.Tech IT",
+    semester: 5,
+    marks: 78,
+    city: "Jaipur",
+    attendance: 81,
+    isHosteller: true
+  },
 //   {
 //     rollNo: 104,
 //     name: "Sneha Patel",
