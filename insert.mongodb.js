@@ -1,24 +1,24 @@
 use("test");
 
-// db.users.find();
+db.users.find();
 
-// db.users.insertOne({name:"Ankit kumar"})
+db.users.insertOne({name:"Ankit kumar"})
 
 
 
-// db.users.insertMany([
-//   {
-//     rollNo: 101,
-//     name: "Aarav Sharma",
-//     age: 20,
-//     gender: "Male",
-//     course: "B.Tech CSE",
-//     semester: 3,
-//     marks: 89,
-//     city: "Delhi",
-//     attendance: 92,
-//     isHosteller: true
-//   },
+db.users.insertMany([
+  {
+    rollNo: 101,
+    name: "Aarav Sharma",
+    age: 20,
+    gender: "Male",
+    course: "B.Tech CSE",
+    semester: 3,
+    marks: 89,
+    city: "Delhi",
+    attendance: 92,
+    isHosteller: true
+  },
 //   {
 //     rollNo: 102,
 //     name: "Priya Verma",
