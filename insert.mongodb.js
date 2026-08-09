@@ -43,31 +43,31 @@ db.users.insertMany([
     attendance: 81,
     isHosteller: true
   },
-//   {
-//     rollNo: 104,
-//     name: "Sneha Patel",
-//     age: 20,
-//     gender: "Female",
-//     course: "BCA",
-//     semester: 4,
-//     marks: 85,
-//     city: "Ahmedabad",
-//     attendance: 90,
-//     isHosteller: false
-//   },
-//   {
-//     rollNo: 105,
-//     name: "Aditya Singh",
-//     age: 22,
-//     gender: "Male",
-//     course: "MCA",
-//     semester: 2,
-//     marks: 91,
-//     city: "Bhopal",
-//     attendance: 88,
-//     isHosteller: true
-//   }
-// ]);
+  {
+    rollNo: 104,
+    name: "Sneha Patel",
+    age: 20,
+    gender: "Female",
+    course: "BCA",
+    semester: 4,
+    marks: 85,
+    city: "Ahmedabad",
+    attendance: 90,
+    isHosteller: false
+  },
+  {
+    rollNo: 105,
+    name: "Aditya Singh",
+    age: 22,
+    gender: "Male",
+    course: "MCA",
+    semester: 2,
+    marks: 91,
+    city: "Bhopal",
+    attendance: 88,
+    isHosteller: true
+  }
+]);
 
 
 db.students.find();
