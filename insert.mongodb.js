@@ -73,6 +73,7 @@ db.users.insertMany([
 db.students.find();
 
 db.students.find({city:{$in :["Delhi", "Bhopal"]}})
+db.students.find({city:{$in :["Ahemdabaad", "jaipur"]}})
 
 
 
