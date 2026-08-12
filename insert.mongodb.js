@@ -70,11 +70,11 @@ db.users.insertMany([
 ]);
 
 
-// db.students.find();
+db.students.find();
 
-// db.students.find({city:{$in :["Delhi", "Bhopal"]}})
-// db.students.find({city:{$in :["Ahemdabaad", "jaipur"]}})
-// db.students.find({age:{$eq : 22}})
+db.students.find({city:{$in :["Delhi", "Bhopal"]}})
+db.students.find({city:{$in :["Ahemdabaad", "jaipur"]}})
+db.students.find({age:{$eq : 22}})
 
 
 
